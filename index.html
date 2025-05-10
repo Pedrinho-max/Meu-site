@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando meu site</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+        }
+
+        header {
+            background-color: #a97878;
+            color: rgb(40, 30, 30);
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 0.5rem;
+            text-align: center;
+        }
+
+        nav a {
+            color: rgb(49, 39, 155);
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 2rem;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .btn {
+            background-color: #5c5c5c;
+            color: rgb(135, 127, 127);
+            padding: 0.5rem 1rem;
+            border: none;
+            cursor: pointer;
+            font-size: 2rem;
+        }
+
+        .btn:hover {
+            background-color: #08b8d3;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Bem-vindo(a) à Minha Página</h1>
+    </header>
+
+    <nav>
+        <a href="#">Início</a>
+        <a href="#">Sobre</a>
+        <a href="#">Serviços</a>
+        <a href="#">Contato</a>
+    </nav>
+
+    <main>
+        <h2>Olá!</h2>
+        <p>Esta é uma página HTML simples com CSS embutido e um pouco de JavaScript criando um experiência.</p>
+        <button class="btn" onclick="mostrarAlerta()">Clique aqui</button>
+    </main>
+
+  
+
+    <script>
+        function mostrarAlerta() {
+            alert("Você clicou no botão!");
+        }
+    </script>
+
+</body>
+</html>
