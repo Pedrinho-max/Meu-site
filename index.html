@@ -1,15 +1,36 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Meu Primeiro Site</title>
+  <title>Meu Site Simples</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Olá, mundo!</h1>
-  <p>Esse é meu site teste</p>
-  <button onclick="mostrarMensagem()">Clique aqui</button>
+  <header>
+    <h1>Bem-vindo!</h1>
+    <nav>
+      <a href="#about">Sobre</a>
+      <a href="#contact">Contato</a>
+    </nav>
+  </header>
 
-  <script src="script.js"></script>
+  <main>
+    <section id="about">
+      <h2>Sobre mim</h2>
+      <p>Esse é um site teste feito por um iniciante em HTML, CSS e JS.</p>
+      <button id="alertBtn">Clique aqui!</button>
+    </section>
+
+    <section id="contact">
+      <h2>Contato</h2>
+      <p>Você pode me encontrar no e‑mail: amarcilene207@gmail.com</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; Buscando tentar te ajudar no que eu posso e sei da minha parte </p>
+  </footer>
+
+  <script src="script.js" defer></script>
 </body>
 </html>
