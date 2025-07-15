@@ -1,30 +1,33 @@
 /* Reset básico */
 * {
-  margin: 1;
-  padding: 1;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
+/* Estilo geral do corpo */
 body {
   font-family: 'Segoe UI', sans-serif;
-  background-color: #121322;
+  background-color: #28309f;
   color: #ffffff;
   line-height: 1.6;
 }
 
+/* Cabeçalho */
 header {
-  background-color: #1d1c6d;
-  color: rgb(219, 219, 230);
+  background-color: #2f264b;
+  color: #ffffff;
   padding: 20px 0;
   text-align: center;
 }
 
 header h1 {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
+/* Menu de navegação */
 nav a {
-  color: rgb(221, 221, 221);
+  color: #ffffff;
   margin: 0 15px;
   text-decoration: none;
   font-weight: bold;
@@ -34,39 +37,52 @@ nav a:hover {
   text-decoration: underline;
 }
 
+/* Conteúdo principal */
 main {
   padding: 40px 20px;
   max-width: 800px;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 
+/* Seções padrão */
 section {
-  background-color: rgb(23, 21, 21);
-  padding: 20px;
   margin-bottom: 30px;
+}
+
+/* Seções com borda personalizada */
+.borda-personalizada {
+  background-color: #1a1a1a;
+  border: 2px solid #000;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgb(4, 4, 4);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  color: #fffcfc;
+  max-width: 800px;
+  margin: 20px auto;
 }
 
+/* Títulos das seções */
 section h2 {
-  color: #1d4aa2;
-  margin-bottom: 10px;
+  color: #f4f9ff;
+  margin-bottom: 20px;
 }
 
+/* Botões de link estilizados */
 .link-button {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #03dac6;
-  color: rgb(16, 14, 14);
+  background-color: #eadbdb;
+  color: #100e0e;
   text-decoration: none;
   border-radius: 5px;
   transition: background-color 0.3s;
   font-weight: bold;
+  cursor: pointer;
+  margin-left: 10px;
 }
 
 .link-button:hover {
-  background-color: #2b877e;
+  background-color: #ececec;
 }
-f
 
-f
+
