@@ -11,6 +11,7 @@ body {
   background-color: #28309f;
   color: #ffffff;
   line-height: 1.6;
+  padding: 20px;
 }
 
 /* Cabeçalho */
@@ -19,16 +20,21 @@ header {
   color: #ffffff;
   padding: 20px 0;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 header h1 {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 /* Menu de navegação */
+nav {
+  margin-top: 10px;
+}
+
 nav a {
   color: #ffffff;
-  margin: 0 15px;
+  margin: 0 10px;
   text-decoration: none;
   font-weight: bold;
 }
@@ -41,12 +47,12 @@ nav a:hover {
 main {
   padding: 40px 20px;
   max-width: 800px;
-  margin: 20px auto;
+  margin: 0 auto;
 }
 
 /* Seções padrão */
 section {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 /* Seções com borda personalizada */
@@ -55,16 +61,21 @@ section {
   border: 2px solid #000;
   border-radius: 10px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
-  padding: 20px;
+  padding: 25px;
   color: #fffcfc;
   max-width: 800px;
-  margin: 20px auto;
+  margin: 30px auto;
 }
 
 /* Títulos das seções */
 section h2 {
   color: #f4f9ff;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
+}
+
+/* Parágrafos */
+section p {
+  margin-bottom: 15px;
 }
 
 /* Botões de link estilizados */
@@ -78,11 +89,9 @@ section h2 {
   transition: background-color 0.3s;
   font-weight: bold;
   cursor: pointer;
-  margin-left: 10px;
+  margin: 10px 5px 0 0; /* espaçamento entre botões */
 }
 
 .link-button:hover {
   background-color: #ececec;
 }
-
-
